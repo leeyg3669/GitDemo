@@ -8,6 +8,7 @@ def pytest_addoption(parser):
         "--browser_name", action="store", default="chrome"
     )
 
+print("Hello")
 
 @pytest.fixture(scope="class")
 def setup(request):

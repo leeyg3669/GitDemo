@@ -1,6 +1,7 @@
 from pageObjects.HomePage import HomePage
 from utilities.BaseClass import BaseClass
 
+print("Hello")
 
 class TestOne(BaseClass):
 
